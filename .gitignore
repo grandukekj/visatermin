@@ -1,0 +1,4 @@
+venv
+userinfo.pickle
+*.pyc
+settings.json

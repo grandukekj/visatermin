@@ -1,9 +1,8 @@
-
 I want to build a python program that automates the online booking process for a visa appointment at the
 Auslaendbehoerde (Berlin). Upon successful implementation, it would search for an open slot in the current
 and the next month and alert the user through an e-mail.
 
-I. Gather user info
+## I. Gather user info
 
 Ask for personal information of the user required for the booking process:
 
@@ -21,7 +20,7 @@ Ask for personal information of the user required for the booking process:
 Information will be saved to a pikle file, so that it can be recalled later.
 
 
-II. Loop (book or change)
+## II. Loop (book or change)
 
     1. Go through the automated process
 
@@ -43,6 +42,6 @@ II. Loop (book or change)
 Currently, the program can check for an open slot once at a time.
 
 
-Yet to be implemented:
+## Yet to be implemented:
 * Build a scheduled loop: checks for an opening every 4 hours (or at a specified time)
 * Terminate the loop when an appointment is made
