@@ -49,3 +49,4 @@ are set to my needs (nationality, family member, visa type, and number of applic
 * Let users choose from a list for some of the personal information (nationality, family member, visa type,
   and number of applicants) - inquirer
 * Add exception/error for inappropriate user input of personal information
+* Update the codes for Python 3.7
