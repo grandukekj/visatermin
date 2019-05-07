@@ -39,9 +39,13 @@ Information will be saved to a pikle file, so that it can be recalled later.
         Wait for 4 hours and return to 1
 
 
-Currently, the program can check for an open slot once at a time.
+Currently, the program can check for an open slot once at a time. Also, some of the personal information 
+are set to my needs (nationality, family member, visa type, and number of applicants).
 
 
 ## Yet to be implemented:
-* Build a scheduled loop: checks for an opening every 4 hours (or at a specified time)
-* Terminate the loop when an appointment is made
+* Build a scheduler: checks for an opening every 4 hours (or at a specified time) - crontab
+* Terminate the scheduler when an appointment is found - crontab
+* Let users choose from a list for some of the personal information (nationality, family member, visa type,
+  and number of applicants) - inquirer
+* Add exception/error for inappropriate user input of personal information
